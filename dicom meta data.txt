@@ -1,0 +1,206 @@
+Dataset.file_meta -------------------------------
+(0002, 0000) File Meta Information Group Length  UL: 192
+(0002, 0001) File Meta Information Version       OB: b'\x00\x01'
+(0002, 0002) Media Storage SOP Class UID         UI: Positron Emission Tomography Image Storage
+(0002, 0003) Media Storage SOP Instance UID      UI: 1.3.46.670589.28.2.15.30.26408.8305.3.2076.165.1418036529
+(0002, 0010) Transfer Syntax UID                 UI: Explicit VR Little Endian
+(0002, 0012) Implementation Class UID            UI: 1.3.46.670589.54.2.18.1
+(0002, 0013) Implementation Version Name         SH: '18.1.0.0'
+-------------------------------------------------
+(0004, 1430) Directory Record Type               CS: 'IMAGE'
+(0008, 0005) Specific Character Set              CS: 'ISO_IR 100'
+(0008, 0008) Image Type                          CS: ['ORIGINAL', 'PRIMARY']
+(0008, 0012) Instance Creation Date              DA: '20141208'
+(0008, 0013) Instance Creation Time              TM: '162350'
+(0008, 0016) SOP Class UID                       UI: Positron Emission Tomography Image Storage
+(0008, 0018) SOP Instance UID                    UI: 1.3.46.670589.28.2.15.30.26408.8305.3.2076.165.1418036529
+(0008, 0020) Study Date                          DA: '20141208'
+(0008, 0021) Series Date                         DA: '20141208'
+(0008, 0022) Acquisition Date                    DA: '20141208'
+(0008, 0023) Content Date                        DA: '20141208'
+(0008, 002a) Acquisition DateTime                DT: '20141208163128.333'
+(0008, 0030) Study Time                          TM: '161624'
+(0008, 0031) Series Time                         TM: '162858'
+(0008, 0032) Acquisition Time                    TM: '163128.333'
+(0008, 0033) Content Time                        TM: '162350'
+(0008, 0050) Accession Number                    SH: ''
+(0008, 0056) Instance Availability               CS: ''
+(0008, 0060) Modality                            CS: 'PT'
+(0008, 0061) Modalities in Study                 CS: ''
+(0008, 0070) Manufacturer                        LO: 'Philips Medical Systems'
+(0008, 0080) Institution Name                    LO: '<TATA MEMORIAL HOSP>'
+(0008, 0090) Referring Physician's Name          PN: 'Unspecified'
+(0008, 1010) Station Name                        SH: 'r562-svr'
+(0008, 1030) Study Description                   LO: 'Unspecified Merge Only CT'
+(0008, 103e) Series Description                  LO: '[PREVIEW] WB PET'
+(0008, 1048) Physician(s) of Record              PN: 'DMG ADULT HEMATOLOGY^^^^'
+(0008, 1050) Performing Physician's Name         PN: ''
+(0008, 1060) Name of Physician(s) Reading Study  PN: ''
+(0008, 1090) Manufacturer's Model Name           LO: 'GEMINI TF TOF 64'
+(0008, 1110)  Referenced Study Sequence  1 item(s) ---- 
+   (0008, 1150) Referenced SOP Class UID            UI: 1.2.840.100008.3.1.2.3.1
+   (0008, 1155) Referenced SOP Instance UID         UI: 1.2.840.113619.2.182.121213310084235152.1417686573.1322013
+   ---------
+(0008, 1111)  Referenced Performed Procedure Step Sequence  1 item(s) ---- 
+   (0008, 1150) Referenced SOP Class UID            UI: Modality Performed Procedure Step SOP Class
+   (0008, 1155) Referenced SOP Instance UID         UI: 1.2.840.113704.1.111.5208.1418035584.1
+   ---------
+(0008, 1250)  Related Series Sequence  1 item(s) ---- 
+   (0020, 000d) Study Instance UID                  UI: 1.2.840.113619.2.182.121213310084235152.1417686573.1322013
+   (0020, 000e) Series Instance UID                 UI: 1.2.840.113704.1.111.5208.1418036033.12
+   (0040, a170)  Purpose of Reference Code Sequence  1 item(s) ---- 
+      (0008, 0100) Code Value                          SH: '122403'
+      (0008, 0102) Coding Scheme Designator            SH: 'DCM'
+      (0008, 0104) Code Meaning                        LO: 'For Attenuation Correction'
+      ---------
+   ---------
+(0008, 9121)  Referenced Raw Data Sequence  1 item(s) ---- 
+   (0008, 1150) Referenced SOP Class UID            UI: Raw Data Storage
+   (0008, 1155) Referenced SOP Instance UID         UI: 1.3.46.670589.28.2.15.2216080234.3.11421.0.1418036339
+   ---------
+(0009, 0010) Private Creator                     LO: 'GEIIS'
+(0009, 1012) [Unknown]                           IS: '1'
+(0010, 0010) Patient's Name                      PN: 'PRAMOD^KANTARAM^SHINDE'
+(0010, 0020) Patient ID                          LO: 'CL/34437'
+(0010, 0021) Issuer of Patient ID                LO: '083G02:20110528:204702843:191011'
+(0010, 0030) Patient's Birth Date                DA: '19911215'
+(0010, 0032) Patient's Birth Time                TM: ''
+(0010, 0040) Patient's Sex                       CS: 'M'
+(0010, 1020) Patient's Size                      DS: '1.7'
+(0010, 1030) Patient's Weight                    DS: '60.0'
+(0010, 1040) Patient's Address                   LO: ''
+(0018, 0015) Body Part Examined                  CS: ''
+(0018, 0050) Slice Thickness                     DS: '4.0'
+(0018, 1000) Device Serial Number                LO: '7562'
+(0018, 1020) Software Versions                   LO: ['9.6.1', 'PMSPT1.44']
+(0018, 1030) Protocol Name                       LO: 'Body/WB_PET-NCCT_(23'
+(0018, 1100) Reconstruction Diameter             DS: '576.0'
+(0018, 1147) Field of View Shape                 CS: 'CYLINDRICAL RING'
+(0018, 1149) Field of View Dimension(s)          IS: [903, 180]
+(0018, 1181) Collimator Type                     CS: 'NONE'
+(0018, 1242) Actual Frame Duration               IS: '44948'
+(0018, 5100) Patient Position                    CS: 'FFS'
+(0020, 000d) Study Instance UID                  UI: 1.2.840.113619.2.94.1418073696858.24169591195232.59632.19530
+(0020, 000e) Series Instance UID                 UI: 1.2.840.113619.2.94.485651714850.2.1463172.2779039.1
+(0020, 0010) Study ID                            SH: '19560'
+(0020, 0011) Series Number                       IS: '365290'
+(0020, 0013) Instance Number                     IS: '49'
+(0020, 0032) Image Position (Patient)            DS: [-286.585938, -216.585938, -828.5]
+(0020, 0037) Image Orientation (Patient)         DS: [1, 0, 0, 0, 1, 0]
+(0020, 0052) Frame of Reference UID              UI: 1.2.840.113704.1.111.5208.1418035921.5
+(0020, 1040) Position Reference Indicator        LO: ''
+(0020, 1041) Slice Location                      DS: '-828.5'
+(0020, 4000) Image Comments                      LT: ''
+(0028, 0002) Samples per Pixel                   US: 1
+(0028, 0004) Photometric Interpretation          CS: 'MONOCHROME2'
+(0028, 0006) Planar Configuration                US: 0
+(0028, 0010) Rows                                US: 144
+(0028, 0011) Columns                             US: 144
+(0028, 0030) Pixel Spacing                       DS: [4, 4]
+(0028, 0034) Pixel Aspect Ratio                  IS: None
+(0028, 0051) Corrected Image                     CS: ['DECY', 'RADL', 'ATTN', 'DTIM', 'RAN', 'NORM']
+(0028, 0100) Bits Allocated                      US: 16
+(0028, 0101) Bits Stored                         US: 16
+(0028, 0102) High Bit                            US: 15
+(0028, 0103) Pixel Representation                US: 0
+(0028, 0106) Smallest Image Pixel Value          US: 0
+(0028, 0107) Largest Image Pixel Value           US: 1371
+(0028, 1050) Window Center                       DS: None
+(0028, 1052) Rescale Intercept                   DS: '0.0'
+(0028, 1053) Rescale Slope                       DS: '1.0'
+(0032, 1033) Requesting Service                  LO: 'Unspecified'
+(0032, 4000) Study Comments                      LT: ''
+(0038, 0010) Admission ID                        LO: 'CL/34437'
+(0038, 0300) Current Patient Location            LO: ''
+(0040, 0244) Performed Procedure Step Start Date DA: '20141208'
+(0040, 0245) Performed Procedure Step Start Time TM: '161624'
+(0040, 0253) Performed Procedure Step ID         SH: '195608'
+(0040, 0254) Performed Procedure Step Descriptio LO: 'PET CT Scan Whole Body (Non Contrast)'
+(0040, 0275)  Request Attributes Sequence  1 item(s) ---- 
+   (0040, 1001) Requested Procedure ID              SH: ''
+   ---------
+(0040, 2017) Filler Order Number / Imaging Servi LO: 'WAAPT14014363'
+(0054, 0016)  Radiopharmaceutical Information Sequence  1 item(s) ---- 
+   (0018, 0031) Radiopharmaceutical                 LO: 'Fluorodeoxyglucose F^18^'
+   (0018, 1070) Radiopharmaceutical Route           LO: 'Intravenous route'
+   (0018, 1072) Radiopharmaceutical Start Time      TM: '153500'
+   (0018, 1074) Radionuclide Total Dose             DS: '227180000.0'
+   (0018, 1075) Radionuclide Half Life              DS: '6586.199707'
+   (0018, 1076) Radionuclide Positron Fraction      DS: '0.967'
+   (0018, 1078) Radiopharmaceutical Start DateTime  DT: '20141208153500'
+   (0054, 0300)  Radionuclide Code Sequence  1 item(s) ---- 
+      (0008, 0100) Code Value                          SH: 'C-111A1'
+      (0008, 0102) Coding Scheme Designator            SH: 'SNM3'
+      (0008, 0104) Code Meaning                        LO: '^18^Fluorine'
+      ---------
+   (0054, 0302)  Administration Route Code Sequence  1 item(s) ---- 
+      (0008, 0100) Code Value                          SH: 'G-D101'
+      (0008, 0102) Coding Scheme Designator            SH: 'SNM3'
+      (0008, 0104) Code Meaning                        LO: 'Intravenous route'
+      ---------
+   (0054, 0304)  Radiopharmaceutical Code Sequence  1 item(s) ---- 
+      (0008, 0100) Code Value                          SH: 'C-B1031'
+      (0008, 0102) Coding Scheme Designator            SH: 'SRT'
+      (0008, 0104) Code Meaning                        LO: 'Fluorodeoxyglucose F^18^'
+      ---------
+   ---------
+(0054, 0081) Number of Slices                    US: 213
+(0054, 0202) Type of Detector Motion             CS: 'NONE'
+(0054, 0410)  Patient Orientation Code Sequence  1 item(s) ---- 
+   (0008, 0100) Code Value                          SH: 'F-10450'
+   (0008, 0102) Coding Scheme Designator            SH: '99SDM'
+   (0008, 0104) Code Meaning                        LO: 'recumbent'
+   (0054, 0412)  Patient Orientation Modifier Code Sequence  1 item(s) ---- 
+      (0008, 0100) Code Value                          SH: 'F-10340'
+      (0008, 0102) Coding Scheme Designator            SH: '99SDM'
+      (0008, 0104) Code Meaning                        LO: 'supine'
+      ---------
+   ---------
+(0054, 0414)  Patient Gantry Relationship Code Sequence  1 item(s) ---- 
+   (0008, 0100) Code Value                          SH: 'G-5191'
+   (0008, 0102) Coding Scheme Designator            SH: '99SDM'
+   (0008, 0104) Code Meaning                        LO: 'feet-first'
+   ---------
+(0054, 1000) Series Type                         CS: ['WHOLE BODY', 'IMAGE']
+(0054, 1001) Units                               CS: 'CNTS'
+(0054, 1002) Counts Source                       CS: 'EMISSION'
+(0054, 1100) Randoms Correction Method           CS: 'DLYD'
+(0054, 1101) Attenuation Correction Method       LO: 'CTAC-SG'
+(0054, 1102) Decay Correction                    CS: 'START'
+(0054, 1103) Reconstruction Method               LO: '3D-RAMLA'
+(0054, 1105) Scatter Correction Method           LO: 'NONE'
+(0054, 1300) Frame Reference Time                DS: '172948.0'
+(0054, 1321) Decay Factor                        DS: '1.0'
+(0054, 1330) Image Index                         US: 49
+(00e1, 0010) Private Creator                     LO: 'ELSCINT1'
+(00e1, 10c2) [Unknown]                           UI: 1.2.840.113704.1.111.5804.1418035585.56
+(01e1, 0010) Private Creator                     LO: 'ELSCINT1'
+(01e1, 1040) Private tag data                    UI: 1.2.840.113619.2.94.1418073696858.24169591195232.59632.19530
+(0903, 0010) Private Creator                     LO: 'GEIIS PACS'
+(0903, 1010) [Reject Image Flag]                 US: 0
+(0903, 1011) [Significant Flag]                  US: 0
+(0903, 1012) [Confidential Flag]                 US: 0
+(0905, 0010) Private Creator                     LO: 'GEIIS'
+(0905, 1030) [Assigning Authority For Patient ID LO: '083G02:20110528:204702843:191011'
+(0907, 0010) Private Creator                     LO: 'GEIIS'
+(0907, 1010) [Original Study Instance UID]       UI: 1.2.840.113619.2.182.121213310084235152.1417686573.1322013
+(2001, 0010) Private Creator                     LO: 'Philips Imaging DD 002'
+(2001, 10b1) Private tag data                    LT: '2145386512:'
+(5005, 0010) Private Creator                     LO: 'ELSCINT1'
+(5005, 1010) Private tag data                    ST: 'D:\\Philips\\Database\\Bulk\\S195600\\S36520\\00001\\Image0023.dcm'
+(7053, 0010) Private Creator                     LO: 'Philips PET Private Group'
+(7053, 1001) [Private]                           OB: Array of 8704 elements
+(7053, 1002) [Private]                           OB: Array of 512 elements
+(7053, 1003) [Original image file name]          ST: 'p3051s0_wb_ctac_sms.img'
+(7053, 1005) [Worklist Info File Name]           LO: 'p3051s0_wb.wls'
+(7053, 1006) [Unknown]                           OB: Array of 2182 elements
+(7053, 1013) [Unknown]                           SS: 0
+(7053, 1014) [Unknown]                           SS: 0
+(7053, 1015) [Unknown]                           SS: 0
+(7053, 1016) [Unknown]                           SS: 0
+(7053, 1017) [Unknown]                           SS: 0
+(7053, 1018) [Unknown]                           SS: 0
+(7053, 10c2) [Unknown]                           UI: 1.2.840.113704.1.111.5804.1418035585.56
+(7fd1, 0010) Private Creator                     LO: 'GEIIS'
+(7fd1, 1010) [GE IIS Compression ID]             UL: 0
+(7fe0, 0010) Pixel Data                          OB: Array of 41472 elements
