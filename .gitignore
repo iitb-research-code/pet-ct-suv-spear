@@ -83,6 +83,7 @@ target/
 # Folders to exclude
 misc
 sample_data
+pet_region_classification/data
 
 
 # IPython
