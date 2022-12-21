@@ -88,4 +88,4 @@ def resize_and_create_pkl_file() -> None:
 
 # rename_files_in_data()
 
-resize_and_create_pkl_file()
+# resize_and_create_pkl_file()

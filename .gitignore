@@ -84,6 +84,8 @@ target/
 misc
 sample_data
 pet_region_classification/data
+pet_region_classification/image_files
+pet_region_classification/classification_results
 
 
 # IPython
